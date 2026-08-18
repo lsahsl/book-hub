@@ -1,0 +1,31 @@
+# Secrets
+.env
+api/config/master.key
+
+# Ruby / Rails
+api/log/
+api/tmp/
+api/storage/
+api/.bundle/
+api/vendor/bundle/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Data artifacts (regenerable)
+storage/uploads/*
+storage/files/*
+storage/exports/*
+!storage/**/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+docs/checkpoints/*
+
+.README.md
