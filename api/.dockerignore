@@ -1,0 +1,12 @@
+.git
+.gitignore
+.dockerignore
+.env
+log/
+tmp/
+storage/
+coverage/
+docs/
+data/
+storage/
+Dockerfile
