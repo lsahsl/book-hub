@@ -49,7 +49,7 @@ items
   metadata_status (pending|needs_review|reviewed),
   created_at, updated_at
 
-files
+document_files
   id, item_id (FK), storage_key (sha256-addressed, uniq),
   sha256, mime_type, size_bytes, original_filename, created_at
 
